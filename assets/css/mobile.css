@@ -1,0 +1,297 @@
+@media screen and (min-width: 100px) and (max-width: 785px) {
+    body{
+        overflow-x: hidden;
+    }
+    .main-header{
+        margin-top: 40px;
+    }
+    
+    .main-nav{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        background-color: #002554;
+        padding: 20px;
+    }
+    
+    .main-nav a{
+        display: none;
+    }
+    
+    .logo-img{
+        padding-left: 5%;
+        transition-duration: 1s;
+    }
+    
+    .logo-img:hover{
+        opacity: 0.9;
+        cursor: pointer;
+    }
+    
+    .search-img{
+        padding: 10px;
+        margin-right: 15%;
+    }
+    
+    .us-img{
+        padding: 10px;
+        margin-right: -2%;
+    }
+    .main-footer{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        background-color: #002554;
+        align-content: center;
+        align-self: center;
+        left: 0;
+        width: 99.5%;
+    }
+    
+    .main-images{
+        width: 65%;
+        margin-top: 4%;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        align-self: center !important;
+    }
+    
+    .main-content{
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 22%;
+        flex-direction: column;
+        width: 60%;
+        margin-top:3%;
+    }
+    
+    .main-images img{
+        width: 80px;
+        height: 80px;
+        margin-left: 24%;
+    }
+    
+    .row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-self: center;
+    }
+    
+    .column{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contact{
+        display: flex;
+        flex-direction: column;
+        margin-top: 60px;
+        padding-bottom: 50px;
+        background-color: #00255461;
+        height: 1460px;
+        left: 0;
+    }
+    
+    .img-txt{
+        font-weight: 500;
+        width: 150px;
+        word-break: break-all;
+    }
+    .desktop{
+        display: none;
+    }
+
+    .card{
+        height: 246px;
+        width: 262px;
+        border-radius: 16px;
+        border: 1px solid #C4C4C4;
+        padding: 15px;
+        margin-left: 18px;
+        margin-top: 30px;
+        box-shadow: 0px 6px 15px 0px #00000029;
+        word-break: break-all !important;
+    }
+    .card p{
+        word-wrap:break-word;
+        width: 100px;
+        white-space:normal !important;
+    }
+    
+    .termos{
+        width: 300px;
+    }
+    .termos p{
+        font-size: 12px;
+    }
+    .termos input{
+        margin-top: 20px;
+    }
+    .robot{
+        margin-left: 1%;
+    }
+    .form-contact{
+        display: flex;
+        flex-direction: column;
+        margin-top: 8%;
+        align-self: center;
+
+        align-items:center; 
+    }
+    .bottom-sec{
+        margin-top: 75px;
+    }
+    .form-contact h4{
+        color: #002554;
+        font-family: Lato;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+    
+    }
+    .social-medias{
+        display: none;
+    }
+    .social-medias img{
+        width: 20px;
+        height: 20px;
+        margin-left: 5px;
+    }
+    .fin-infos{
+        font-family: Brown LL TT;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+    }
+    .fin-infos p{
+        color: whitesmoke;
+        margin-left: 10px;
+    }
+    .mz{
+        margin-bottom:0px
+    }
+    .fin-infos span{
+        color: orange;
+    }
+    .text-contact{
+        margin-top: 5%;
+        margin-left: 5%;
+        align-self: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .text-contact div{
+        margin-bottom: 50px;
+    }
+    .text-contact h2{
+        color: #002554;
+    }
+    .text-contact p{
+        color: white;
+        width: 320px;
+        text-align: left;
+    }
+    .submit-btn{
+        border: none;
+        background: none;
+        background-color: #002554;
+        color: whitesmoke;
+        width: auto;
+        align-self: center;
+        padding: 18px 30px 18px;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+    .submit-btn:hover{
+        opacity: 0.8;
+    }
+    .text-field{
+    
+        border: 1px solid #CFCFCE;
+        margin-top: 10px;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: left;
+        padding-left: 10px;
+        height: 60px;
+        color: #9EA7B0;
+        padding: 10px;
+        width: 100%;
+    }
+    
+    .text-area{
+        border: 1px solid #CFCFCE;
+        
+        margin-top: 20px;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: left;
+        padding-left: 10px;
+        color: #9EA7B0;
+        height: 100px;
+        padding-bottom: 100px;
+        overflow-y: hidden;
+        width: 100%;
+    }
+    
+    .left-float{
+        justify-content: center;
+    }
+    .right-float{
+        justify-content: center;
+    }
+    .mobile{
+        display: block;
+        width: 320px;
+        overflow-x: auto;
+        margin-left:-10px
+    }
+    .mobile-row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        white-space: nowrap;
+    }
+
+    .mobile-card{
+        display:flex;
+        flex-direction: column;
+        width: 800px !important;
+        height: 400px !important;
+        padding: 20px;
+        margin-left:50px;
+        border: 1px solid #C4C4C4;
+        box-shadow: 0px 6px 15px 0px #00000029;
+        text-align: center;
+        align-content: center;
+    }
+    .mobile-card p{
+        width: 100px !important;
+        word-wrap: break-word !important;
+        word-break: break-all !important;
+        white-space: pre-wrap;
+        text-align: center;
+        align-self: center;
+    }
+    .mobile-card a{
+        color: #002554;
+    }
+}
+
