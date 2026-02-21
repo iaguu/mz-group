@@ -1,0 +1,11 @@
+{
+    "name": "hypedx62/hypedx62",
+    "require": {
+        "mercadopago/dx-php": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hypedx62\\Hypedx62\\": "src/"
+        }
+    }
+}
